@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
   registry: "ghcr.io"
-  repository: "sergfut/kbot"
+  repository: "foo2my/kbot"
   pullPolicy: IfNotPresent
   tag: "v1.0.2-7513857"
   os: linux
