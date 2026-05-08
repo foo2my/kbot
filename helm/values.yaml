@@ -3,7 +3,7 @@ image:
   registry: "ghcr.io"
   repository: "foo2my/kbot"
   pullPolicy: IfNotPresent
-  tag: "v0.1.0-274ddd0"
+  tag: "v0.1.0-274ddd0"   #update version v0.1.0-274ddd0
   os: linux
   arch: amd64
   parameter: go
