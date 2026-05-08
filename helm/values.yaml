@@ -1,8 +1,7 @@
 replicaCount: 1
-
 image:
   repository: sergfut
-  tag: "v1.0.2-7513857"
+  tag: "v0.1.0-ae95ed8"
   arch: amd64
 # Додатково визначте секцію для токену TELE_TOKEN
 secret:
