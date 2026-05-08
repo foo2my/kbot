@@ -1,13 +1,18 @@
 replicaCount: 1
 
 image:
+  registry: "ghcr.io"
   repository: sergfut
+  pullPolicy: IfNotPresent
   tag: "v1.0.2-7513857"
+  os: linux
   arch: amd64
+  parameter: go
 # Додатково визначте секцію для токену TELE_TOKEN
 secret:
   name: "kbot"
   env: "TELE_TOKEN"
   key: "token"
+  value: "ODc5NjY2OTMwMDpBQUVDTC12al9sTUpELTRGRWw3R1EydWE1emJyVGRfUXYyWQo=="
 securityContext:
   privileged: true
