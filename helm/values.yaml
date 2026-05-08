@@ -4,7 +4,7 @@ image:
   repository: "foo2my/kbot"
   pullPolicy: IfNotPresent
 
-  tag: "v0.1.0-274ddd0-linux-linux"
+  tag: "v0.1.0-274ddd0"
 
   os: linux
   arch: amd64
